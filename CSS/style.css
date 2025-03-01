@@ -62,7 +62,6 @@ nav a:hover {
     clear: both;
 }
 .hero {
-    /* position: relative; */
     background-color: #FFCF83;
     height: 330px;
 }
@@ -98,14 +97,14 @@ nav a:hover {
 }
 
 .features-container {
-    width: 1275px;
+    width: 1200px;
     max-width: 100%;
     padding: 20px;
     margin: auto;
 }
 .feature-block {
     float: none;
-    width: 325px;
+    width: 300px;
     margin: 20px;
     padding: 20px;
     display: inline-block;
@@ -129,4 +128,23 @@ nav a:hover {
     display: inline-block;
     text-align: center;
     background-color: #FFFFFF;
+}
+.testimonial-block p {
+    width: 100%;
+    padding-top: 15px;
+}
+.team-container {
+    width: fit-content;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.team-block {
+    float: none;
+    width: 215px;
+    display: inline-block;
+    text-align: center;
+}
+.team-block p {
+    width: 100%;
 }
