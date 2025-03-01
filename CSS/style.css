@@ -27,14 +27,14 @@ h3 {
     margin: auto;
     position: relative;
 }
-link {
+a {
     color: #b3679b;
 }
 header .container {
     position: sticky;
     height: 110px;
     background-color: #F2F2F2;
-    z-index: auto;
+    z-index: 1;
     position: relative;
 }
 header img {
@@ -53,6 +53,7 @@ nav li {
 }
 nav a {
     color: black;
+    text-decoration: none;
 }
 nav a:hover {
     color: #e6a563;
@@ -61,7 +62,7 @@ nav a:hover {
     clear: both;
 }
 .hero {
-    position: relative;
+    /* position: relative; */
     background-color: #FFCF83;
     height: 330px;
 }
@@ -73,7 +74,7 @@ nav a:hover {
 .hero img {
     position: absolute;
     top: 20px;
-    right: 150px;
+    right: 50px;
 }
 .hero h1, p {
     position: static;
@@ -81,19 +82,28 @@ nav a:hover {
     width: 50%;
     margin-bottom: 20px;
 }
-/* .hero .button {
+.hero .button {
     position: static;
-    display: inline;
-} */
+    display: block;
+    width: 60px;
+}
 .button {
-    position: absolute;
-    /* display: inline; */
-    left: 65px;
-    top: 55%;
     padding: 10px;
     background-color: #222E50;
     border-radius: 10px;
     color: white;
     text-decoration: none;
     font-size: 10px;
+    text-align: center;
 }
+
+.feature-block {
+    float: none;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
